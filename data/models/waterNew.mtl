@@ -1,0 +1,160 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:ANTSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:Ant_Antenna1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl modifyingGeo:BODYSG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:Grass4SG
+illum 4
+Kd 0.32 0.27 0.23
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:Ground1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:RAT_BODYSG
+illum 4
+Kd 0.38 0.44 0.58
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:RatHandR1SG
+illum 4
+Kd 0.46 0.25 0.28
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:RatHandRSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:RatHeadSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:WaterSG
+illum 4
+Kd 0.09 0.11 0.09
+Ka 0.00 0.00 0.00
+Tf 0.98 0.98 0.98
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.00
+newmtl modifyingGeo:lambert43SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:lambert44SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:leftLungSG
+illum 4
+Kd 0.85 0.53 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:naIl1SG
+illum 4
+Kd 0.28 0.24 0.26
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl modifyingGeo:pCylinder33SG
+illum 4
+Kd 0.76 0.31 0.29
+Ka 0.16 0.16 0.16
+Tf 0.63 0.63 0.63
+Ni 1.00
+newmtl modifyingGeo:pCylinder37SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:pCylinder49SG
+illum 4
+Kd 1.00 0.65 0.62
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:pCylinder55SG
+illum 4
+Kd 0.07 0.16 0.14
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:pPlane1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:pSphere1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl modifyingGeo:ribCageSG
+illum 4
+Kd 0.94 0.88 0.72
+Ka 0.35 0.35 0.35
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:rock1:MeshSG
+illum 4
+Kd 0.36 0.33 0.30
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl modifyingGeo:snakeHeadSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phong1SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

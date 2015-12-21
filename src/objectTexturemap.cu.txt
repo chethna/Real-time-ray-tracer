@@ -1,0 +1,61 @@
+#include <optix.h>
+#include <optixu/optixu_math_namespace.h>
+
+using namespace optix;
+
+struct PerRayData_tex
+{
+  float3 result;
+};
+
+rtTextureSampler<float4, 2> tex;
+rtDeclareVariable(PerRayData_tex, prd, rtPayload, );
+rtDeclareVariable(float3, texcoord, attribute texcoord, ); 
+
+RT_PROGRAM void closest_hit_radiance()
+{
+  const float3 uv = texcoord;
+
+  prd.result = make_float3( tex2D( tex, uv.x, uv.y ) );
+}
+
+
+
+
+/*#include <optix.h>
+#include <optixu/optixu_math_namespace.h>
+#include "objectTexturemap.h"
+
+// surface parameters
+rtDeclareVariable(float3,       Ka, , );
+rtDeclareVariable(float3,       Kd, , );
+rtDeclareVariable(float3,       Ks, , );
+rtDeclareVariable(float3,       reflectivity, , );
+rtDeclareVariable(float,        phong_exp, , );
+rtTextureSampler<float4, 2>     ka_map;
+rtTextureSampler<float4, 2>     kd_map;
+rtTextureSampler<float4, 2>     ks_map;
+
+// hitpoint parameters
+rtDeclareVariable(float3, texcoord, attribute texcoord, ); 
+rtDeclareVariable(float3, geometric_normal, attribute geometric_normal, ); 
+rtDeclareVariable(float3, shading_normal, attribute shading_normal, ); 
+
+
+RT_PROGRAM void any_hit_shadow()
+{
+  phongShadowed();
+}
+
+RT_PROGRAM void closest_hit_radiance()
+{
+  float3 uvw = texcoord; // testing
+  float3 ka = Ka * make_float3( tex2D( ka_map, uvw.x, uvw.y ) );
+  float3 kd = Kd * make_float3( tex2D( kd_map, uvw.x, uvw.y ) );
+  float3 ks = Ks * make_float3( tex2D( ks_map, uvw.x, uvw.y ) );
+
+  float3 world_shading_normal = normalize(rtTransformNormal(RT_OBJECT_TO_WORLD, shading_normal));
+  float3 world_geometric_normal = normalize(rtTransformNormal(RT_OBJECT_TO_WORLD, geometric_normal));
+  float3 ffnormal  = faceforward( world_shading_normal, -ray.direction, world_geometric_normal );
+  phongShade( kd, ka, ks, ffnormal, phong_exp, reflectivity );
+} */
